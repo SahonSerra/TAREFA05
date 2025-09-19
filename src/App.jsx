@@ -1,28 +1,23 @@
 import './App.css';
 
-
 import Evento from './componentes/Evento';
 import Form from './componentes/Form';
+import Condicional from './componentes/Condicional';
 
-function App(){
+function App() {
+  return (
+    <div className="App">
+      <h1>Testando Eventos</h1>
+      
+      <Evento />
+      <Condicional/>
 
-  return(
-    <div className='App'>
+      <br />
 
-    <h1>Testando Eventos</h1>
-    <Evento/>
-    
-
-    <br/>
-
-    <Form/>
-   
-
-
+      <Form />
 
     </div>
-  )
-
+  );
 }
-export default App;
 
+export default App;
